@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>USER FORM</title>
+	<style type="text/css">
+		.divider{
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+<body>
+  	<h1><center><font size="8" color="red">USER FORM</font></center></h1>
+  	<form action="">
+  		<div class="divider">
+  			<label for="name">ENTER NAME</label>
+  			<input type="text" name="name" id="name">
+  		</div>
+  		<div class="divider">
+  			<label for="password">ENTER PASSWORD</label>
+  			<input type="password" name="password" id="password">
+  			</div>
+  		<div class="divider">
+  			<label for="address">ENTER ADDRESS</label>
+  			<textarea name="address" id="address"></textarea>
+  		</div>	
+  		<div class="divider">
+  			SELECT GAME
+  			<p><input type="checkbox" name="hockey" id="hockey">HOCKEY</p>
+  				<p><input type="checkbox" name="football" id="football">FOOTBALL</p>
+  				<p><input type="checkbox" name="badminton" id="badminton">BADMINTON</p>
+  				<p><input type="checkbox" name="cricket" id="cricket">CRICKET</p>
+  				<p><input type="checkbox" name="volley ball" id="volley ball">VOLLEY BALL</p>
+  			
+  		</div>
+  		<div class="divider">
+  			GENDER
+  			<input type="radio" name="female" id="female">FEMALE
+  			<input type="radio" name="male" id="male">MALE
+  		</div>
+  		<div class="divider">
+  			<label for="age">SELECT YOUR AGE</label>
+  			<input type="number" name="age" id="age" min="1" max="60" step="5">
+  		</div>
+  		<div class="divider">
+  			<label for="file">BROWSE FILE</label>
+  			<input type="file" name="file" id="file">
+  		</div>
+  		<button type="click me">click me</button>
+  		<button type="reset">RESET</button>
+  		<button type="submit">SUBMIT FORM</button>
+  	</form>
+</body>
+</html>
